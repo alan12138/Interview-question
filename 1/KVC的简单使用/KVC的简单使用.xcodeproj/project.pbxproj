@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73573881D6E9B5C0008FE6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E73573871D6E9B5C0008FE6A /* main.m */; };
+		E735738B1D6E9B5C0008FE6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E735738A1D6E9B5C0008FE6A /* AppDelegate.m */; };
+		E735738E1D6E9B5C0008FE6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E735738D1D6E9B5C0008FE6A /* ViewController.m */; };
+		E73573911D6E9B5C0008FE6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E735738F1D6E9B5C0008FE6A /* Main.storyboard */; };
+		E73573931D6E9B5C0008FE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73573921D6E9B5C0008FE6A /* Assets.xcassets */; };
+		E73573961D6E9B5C0008FE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73573941D6E9B5C0008FE6A /* LaunchScreen.storyboard */; };
+		E73573A11D6E9B5C0008FE6A /* KVC_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73573A01D6E9B5C0008FE6A /* KVC_____Tests.m */; };
+		E73573AC1D6E9B5C0008FE6A /* KVC_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73573AB1D6E9B5C0008FE6A /* KVC_____UITests.m */; };
+		E73573BB1D6E9B8D0008FE6A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E73573BA1D6E9B8D0008FE6A /* Person.m */; };
+		E73573C11D6E9D5D0008FE6A /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E73573C01D6E9D5D0008FE6A /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E735739D1D6E9B5C0008FE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E735737B1D6E9B5C0008FE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73573821D6E9B5C0008FE6A;
+			remoteInfo = "KVC的简单使用";
+		};
+		E73573A81D6E9B5C0008FE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E735737B1D6E9B5C0008FE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73573821D6E9B5C0008FE6A;
+			remoteInfo = "KVC的简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73573831D6E9B5C0008FE6A /* KVC的简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVC的简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73573871D6E9B5C0008FE6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E73573891D6E9B5C0008FE6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E735738A1D6E9B5C0008FE6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E735738C1D6E9B5C0008FE6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E735738D1D6E9B5C0008FE6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E73573901D6E9B5C0008FE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73573921D6E9B5C0008FE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73573951D6E9B5C0008FE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E73573971D6E9B5C0008FE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E735739C1D6E9B5C0008FE6A /* KVC的简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVC的简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73573A01D6E9B5C0008FE6A /* KVC_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KVC_____Tests.m"; sourceTree = "<group>"; };
+		E73573A21D6E9B5C0008FE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73573A71D6E9B5C0008FE6A /* KVC的简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVC的简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73573AB1D6E9B5C0008FE6A /* KVC_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KVC_____UITests.m"; sourceTree = "<group>"; };
+		E73573AD1D6E9B5C0008FE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73573B91D6E9B8D0008FE6A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E73573BA1D6E9B8D0008FE6A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E73573BF1D6E9D5D0008FE6A /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		E73573C01D6E9D5D0008FE6A /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73573801D6E9B5C0008FE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73573991D6E9B5C0008FE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73573A41D6E9B5C0008FE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E735737A1D6E9B5C0008FE6A = {
+			isa = PBXGroup;
+			children = (
+				E73573851D6E9B5C0008FE6A /* KVC的简单使用 */,
+				E735739F1D6E9B5C0008FE6A /* KVC的简单使用Tests */,
+				E73573AA1D6E9B5C0008FE6A /* KVC的简单使用UITests */,
+				E73573841D6E9B5C0008FE6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73573841D6E9B5C0008FE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73573831D6E9B5C0008FE6A /* KVC的简单使用.app */,
+				E735739C1D6E9B5C0008FE6A /* KVC的简单使用Tests.xctest */,
+				E73573A71D6E9B5C0008FE6A /* KVC的简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73573851D6E9B5C0008FE6A /* KVC的简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				E73573891D6E9B5C0008FE6A /* AppDelegate.h */,
+				E735738A1D6E9B5C0008FE6A /* AppDelegate.m */,
+				E735738C1D6E9B5C0008FE6A /* ViewController.h */,
+				E735738D1D6E9B5C0008FE6A /* ViewController.m */,
+				E73573B91D6E9B8D0008FE6A /* Person.h */,
+				E73573BA1D6E9B8D0008FE6A /* Person.m */,
+				E73573BF1D6E9D5D0008FE6A /* Dog.h */,
+				E73573C01D6E9D5D0008FE6A /* Dog.m */,
+				E735738F1D6E9B5C0008FE6A /* Main.storyboard */,
+				E73573921D6E9B5C0008FE6A /* Assets.xcassets */,
+				E73573941D6E9B5C0008FE6A /* LaunchScreen.storyboard */,
+				E73573971D6E9B5C0008FE6A /* Info.plist */,
+				E73573861D6E9B5C0008FE6A /* Supporting Files */,
+			);
+			path = "KVC的简单使用";
+			sourceTree = "<group>";
+		};
+		E73573861D6E9B5C0008FE6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73573871D6E9B5C0008FE6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E735739F1D6E9B5C0008FE6A /* KVC的简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E73573A01D6E9B5C0008FE6A /* KVC_____Tests.m */,
+				E73573A21D6E9B5C0008FE6A /* Info.plist */,
+			);
+			path = "KVC的简单使用Tests";
+			sourceTree = "<group>";
+		};
+		E73573AA1D6E9B5C0008FE6A /* KVC的简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E73573AB1D6E9B5C0008FE6A /* KVC_____UITests.m */,
+				E73573AD1D6E9B5C0008FE6A /* Info.plist */,
+			);
+			path = "KVC的简单使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73573821D6E9B5C0008FE6A /* KVC的简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73573B01D6E9B5D0008FE6A /* Build configuration list for PBXNativeTarget "KVC的简单使用" */;
+			buildPhases = (
+				E735737F1D6E9B5C0008FE6A /* Sources */,
+				E73573801D6E9B5C0008FE6A /* Frameworks */,
+				E73573811D6E9B5C0008FE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVC的简单使用";
+			productName = "KVC的简单使用";
+			productReference = E73573831D6E9B5C0008FE6A /* KVC的简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E735739B1D6E9B5C0008FE6A /* KVC的简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73573B31D6E9B5D0008FE6A /* Build configuration list for PBXNativeTarget "KVC的简单使用Tests" */;
+			buildPhases = (
+				E73573981D6E9B5C0008FE6A /* Sources */,
+				E73573991D6E9B5C0008FE6A /* Frameworks */,
+				E735739A1D6E9B5C0008FE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E735739E1D6E9B5C0008FE6A /* PBXTargetDependency */,
+			);
+			name = "KVC的简单使用Tests";
+			productName = "KVC的简单使用Tests";
+			productReference = E735739C1D6E9B5C0008FE6A /* KVC的简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E73573A61D6E9B5C0008FE6A /* KVC的简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73573B61D6E9B5D0008FE6A /* Build configuration list for PBXNativeTarget "KVC的简单使用UITests" */;
+			buildPhases = (
+				E73573A31D6E9B5C0008FE6A /* Sources */,
+				E73573A41D6E9B5C0008FE6A /* Frameworks */,
+				E73573A51D6E9B5C0008FE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73573A91D6E9B5C0008FE6A /* PBXTargetDependency */,
+			);
+			name = "KVC的简单使用UITests";
+			productName = "KVC的简单使用UITests";
+			productReference = E73573A71D6E9B5C0008FE6A /* KVC的简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E735737B1D6E9B5C0008FE6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alan;
+				TargetAttributes = {
+					E73573821D6E9B5C0008FE6A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E735739B1D6E9B5C0008FE6A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E73573821D6E9B5C0008FE6A;
+					};
+					E73573A61D6E9B5C0008FE6A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E73573821D6E9B5C0008FE6A;
+					};
+				};
+			};
+			buildConfigurationList = E735737E1D6E9B5C0008FE6A /* Build configuration list for PBXProject "KVC的简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E735737A1D6E9B5C0008FE6A;
+			productRefGroup = E73573841D6E9B5C0008FE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73573821D6E9B5C0008FE6A /* KVC的简单使用 */,
+				E735739B1D6E9B5C0008FE6A /* KVC的简单使用Tests */,
+				E73573A61D6E9B5C0008FE6A /* KVC的简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73573811D6E9B5C0008FE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73573961D6E9B5C0008FE6A /* LaunchScreen.storyboard in Resources */,
+				E73573931D6E9B5C0008FE6A /* Assets.xcassets in Resources */,
+				E73573911D6E9B5C0008FE6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E735739A1D6E9B5C0008FE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73573A51D6E9B5C0008FE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E735737F1D6E9B5C0008FE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73573C11D6E9D5D0008FE6A /* Dog.m in Sources */,
+				E735738E1D6E9B5C0008FE6A /* ViewController.m in Sources */,
+				E735738B1D6E9B5C0008FE6A /* AppDelegate.m in Sources */,
+				E73573BB1D6E9B8D0008FE6A /* Person.m in Sources */,
+				E73573881D6E9B5C0008FE6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73573981D6E9B5C0008FE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73573A11D6E9B5C0008FE6A /* KVC_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73573A31D6E9B5C0008FE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73573AC1D6E9B5C0008FE6A /* KVC_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E735739E1D6E9B5C0008FE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73573821D6E9B5C0008FE6A /* KVC的简单使用 */;
+			targetProxy = E735739D1D6E9B5C0008FE6A /* PBXContainerItemProxy */;
+		};
+		E73573A91D6E9B5C0008FE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73573821D6E9B5C0008FE6A /* KVC的简单使用 */;
+			targetProxy = E73573A81D6E9B5C0008FE6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E735738F1D6E9B5C0008FE6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73573901D6E9B5C0008FE6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E73573941D6E9B5C0008FE6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73573951D6E9B5C0008FE6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73573AE1D6E9B5D0008FE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E73573AF1D6E9B5D0008FE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73573B11D6E9B5D0008FE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KVC的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.KVC-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E73573B21D6E9B5D0008FE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KVC的简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.KVC-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E73573B41D6E9B5D0008FE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KVC的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.KVC-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVC的简单使用.app/KVC的简单使用";
+			};
+			name = Debug;
+		};
+		E73573B51D6E9B5D0008FE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KVC的简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.KVC-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVC的简单使用.app/KVC的简单使用";
+			};
+			name = Release;
+		};
+		E73573B71D6E9B5D0008FE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KVC的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.KVC-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KVC的简单使用";
+			};
+			name = Debug;
+		};
+		E73573B81D6E9B5D0008FE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KVC的简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alan.KVC-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KVC的简单使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E735737E1D6E9B5C0008FE6A /* Build configuration list for PBXProject "KVC的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73573AE1D6E9B5D0008FE6A /* Debug */,
+				E73573AF1D6E9B5D0008FE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73573B01D6E9B5D0008FE6A /* Build configuration list for PBXNativeTarget "KVC的简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73573B11D6E9B5D0008FE6A /* Debug */,
+				E73573B21D6E9B5D0008FE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73573B31D6E9B5D0008FE6A /* Build configuration list for PBXNativeTarget "KVC的简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73573B41D6E9B5D0008FE6A /* Debug */,
+				E73573B51D6E9B5D0008FE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73573B61D6E9B5D0008FE6A /* Build configuration list for PBXNativeTarget "KVC的简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73573B71D6E9B5D0008FE6A /* Debug */,
+				E73573B81D6E9B5D0008FE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E735737B1D6E9B5C0008FE6A /* Project object */;
+}
