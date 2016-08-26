@@ -62,25 +62,17 @@
 //    block(); // 20
 
     
-    __block Person *p = [[Person alloc] init]; // 1
-    p.age = 20;
-
-    void (^block)() = ^{
-        NSLog(@"------block------%d", p.age);
-    };
-    NSLog(@"%zd", [p retainCount]);
-    Block_copy(block); // 2
-    NSLog(@"%zd", [p retainCount]);
-
-    [p release]; // 1
-    
-//    Person *p1 = [[Person alloc] init]; // 1
-//    
-//    //        d.block = ^{
-//    //            NSLog(@"%d", d.age);
-//    //        };
-//    
-//    [p1 release]; // 0
+//    __block Person *p = [[Person alloc] init]; // 1
+//    p.age = 20;
+//
+//    void (^block)() = ^{
+//        NSLog(@"------block------%d", p.age);
+//    };
+//    NSLog(@"%zd", [p retainCount]);
+//    Block_copy(block); // 2
+//    NSLog(@"%zd", [p retainCount]);
+//
+//    [p release]; // 1
 
 
     

@@ -13,10 +13,10 @@
 {
     if (self = [super init]) {
         //        __block Dog * dog = self;
-        __block typeof(self) dog = self;
+        __weak typeof(self) dog = self;
         self.block = ^{
-            //            [dog run];
-            NSLog(@"%d", dog->_age);
+                        [dog run];
+//            NSLog(@"%d", dog->_age);
         };
     }
     return self;
@@ -28,7 +28,7 @@
     
 //    Block_release(_block);
     
-    [super dealloc];
+//    [super dealloc];
 }
 
 - (void)run
